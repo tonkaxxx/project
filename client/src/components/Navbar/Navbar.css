@@ -1,0 +1,27 @@
+/* src/components/Navbar/Navbar.css */
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px;
+    height: 100%; /* Устанавливаем высоту навбара на 100% */
+    display: flex; /* Используем flexbox для вертикального выравнивания */
+    flex-direction: column; /* Вертикальное направление элементов */
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0; /* Убираем отступы */
+    margin: 0; /* Убираем поля */
+}
+
+.navbar li {
+    margin-bottom: 15px; /* Отступ между элементами */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.navbar button {
+    cursor: pointer; /* Курсор при наведении на кнопку */
+}

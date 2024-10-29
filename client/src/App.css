@@ -1,0 +1,47 @@
+/* src/App.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.app-container {
+    display: flex; /* Flexbox для боковой навигации и основного контента */
+}
+
+.navbar {
+    width: 200px; /* Фиксированная ширина для навбара */
+    background-color: #ffffff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Лёгкая тень для навбара */
+    height: 100vh; /* Высота навбара на всю высоту экрана */
+    position: fixed; /* Фиксируем навбар */
+    top: 0;
+    left: 0;
+    overflow-y: auto; /* Прокрутка для навбара, если содержимого больше */
+}
+
+.main {
+    margin-left: 200px; /* Отступ слева для основного контента, чтобы не пересекаться с навбаром */
+    padding: 20px;
+    flex: 1; /* Позволяем основному контенту занимать оставшееся пространство */
+    background-color: #f8f9fa; /* Фон для основного контента */
+    min-height: 100vh; /* Минимальная высота для корректного отображения контента */
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #007bff;
+    color: white;
+}
